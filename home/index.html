@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html onContextMenu="return false;">
+<head>
+<title>Home | Project 1.0</title>
+<link rel="icon" href="../home/images/ticon.png" type="image/icon type">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../home/css/popz.css">
+<link rel="stylesheet" href="../home/css/theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript" src="../home/cont.js"></script>
+    
+    
+</head>
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="popz-top">
+ <div class="popz-bar popz-theme-d2 popz-left-align">
+  <a class="popz-bar-item popz-button popz-hide-medium popz-hide-large popz-right popz-hover-white popz-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="popz-bar-item popz-button popz-teal"><i class="fa fa-home popz-margin-right"></i></a>
+  <a href="#team" class="popz-bar-item popz-button popz-hide-small popz-hover-white">Team</a>
+  <a href="#work" class="popz-bar-item popz-button popz-hide-small popz-hover-white">Work</a>
+  <a href="#contact" class="popz-bar-item popz-button popz-hide-small popz-hover-white">Contact</a>
+    <div class="popz-dropdown-hover popz-hide-small">
+    <button class="popz-button" title="Notifications">More <i class="fa fa-caret-down"></i></button>     
+    <div class="popz-dropdown-content popz-card-4 popz-bar-block">
+      <a href="../home/assets/creadit.html" class="popz-bar-item popz-button">Creadit</a>
+      <a href="../home/assets/reference.html" class="popz-bar-item popz-button">References</a>
+      <a href="../home/assets/resources.html" class="popz-bar-item popz-button">Resources</a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navSmall" class="popz-bar-block popz-theme-d2 popz-hide popz-hide-large popz-hide-medium">
+    <a href="#team" class="popz-bar-item popz-button">Team</a>
+    <a href="#work" class="popz-bar-item popz-button">Work</a>
+    <a href="#contact" class="popz-bar-item popz-button">Contact</a>
+    <a href="../home/assets/creadit.html" class="popz-bar-item popz-button">Creadit</a>
+    <a href="../home/assets/reference.html" class="popz-bar-item popz-button">References</a>
+    <a href="../home/assets/resources.html" class="popz-bar-item popz-button">Resources</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="popz-display-container popz-animate-opacity">
+  <img src="../home/images/home_cov1.jpg" alt="boat" style="width:100%;min-height:150px;max-height:926px;" onContextMenu="return false;">
+  <div class="popz-container popz-display-bottomleft popz-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="popz-button popz-xabout popz-theme popz-hover-teal" title="About POPZ" style="width:100%;min-height:1px;max-height:55px;">About US</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="popz-modal">
+  <div class="popz-modal-content popz-card-4 popz-animate-top">
+    <header class="popz-container popz-teal popz-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="popz-button popz-teal popz-display-topright"><i class="fa fa-remove"></i></span>
+      <h3>Project 1.0</h3>
+    </header>
+    <div class="popz-container">
+      <p>Welcome to Project 1.0, an intimate collective driven by a shared vision. As a non-profit, independent initiative, we are passionate about harnessing the power of data for societal benefit. Our team, deeply rooted in the field of data science, is dedicated to enlightening others on the significance of data. By delving into diverse datasets, we aim to unearth valuable insights that contribute to a better-informed and empowered society. Our mission is to make a meaningful impact through collaborative exploration and knowledge dissemination, shaping a future where data fuels positive change. Welcome to the essence of our data-driven mission. Visitors are welcome to explore our reports and articles for personal enrichment, contributing to a more informed and interconnected world.</p>
+      <p><a class="popz-text-teal" href="../home/assets/index.html">More..</a></p>
+    </div>
+    <footer class="popz-container popz-teal">
+        <style>
+            my::before {
+                content: "Data is the new oil, and awareness is the spark that ignites its potential. - H Hauser";
+                animation: animate infinite 20s;
+            }
+            @keyframes animate {
+                30% {
+                    content: "Data is a reflection of you. Your data, your rules. Own it, Control it.";
+                }
+                70% {
+                    content: "Nothing is private in the digital world; All are just TRUST.";
+                }
+            }
+        </style>
+      <h5 style="font-size: 103%"><my></my></h5>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="popz-container popz-padding-64 popz-center" id="team">
+<h2>Meet the Team</h2>
+
+<div class="popz-row"><br>
+
+<div class="popz-quarter">
+  <img src="../home/images/avatar-SN.jpg" style="width:45%" onclick="window.open('https://www.linkedin.com/in/sumitnayek/', '_blank')" class="popz-circle popz-hover-opacity" onContextMenu="return false;">
+  <h3>Sumit Nayek</h3>
+</div>
+
+<div class="popz-quarter">
+  <img src="../home/images/avatar-SA.jpg" style="width:45%" onclick="window.open('https://www.linkedin.com/in/sumanhere/', '_blank')" class="popz-circle popz-hover-opacity" onContextMenu="return false;">
+  <h3>Suman Adhikary</h3>
+</div>
+
+<div class="popz-quarter">
+  <img src="../home/images/avatar-SD.jpg" style="width:45%" onclick="window.open('https://www.linkedin.com/in/sabyasachidhara/', '_blank')" class="popz-circle popz-hover-opacity" onContextMenu="return false;">
+  <h3>Sabyasachi Dhara</h3>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="popz-row-padding popz-padding-64 popz-theme-l1" id="work">
+
+<div class="popz-quarter">
+<h2>Our Work</h2>
+<p>At Project 1.0, our work represents a fusion of data science expertise. Our dedicated team delves passionately into the realms of social, environmental, and experimental data. Employing advanced data science techniques, we uncover insights that contribute to a deeper understanding of these critical domains. As a non-profit, independent entity, our commitment extends to the societal and environmental impact of our work. </p>
+</div>
+
+<div class="popz-quarter">
+<div class="popz-card popz-white">
+  <img src="../home/images/cov-19.jpeg" alt="Covid" style="width:100%" onclick="window.open('../home/assets/report.html', '_blank')" onContextMenu="return false;">
+  <div class="popz-container">
+  <h3><b>Covid-19</b></h3>
+  <p><a href="../home/assets/report.html" target="_blank" style="text-decoration: none; font-weight: bold;">Priliminary Visualizations</a></p>
+  <p>...........</p>
+  <p>...........</p>
+  </div>
+  </div>
+</div>
+
+<!--
+<div class="popz-quarter">
+<div class="popz-card popz-white">
+  <img src="../home/images/popzimages-lights.jpg" alt="Lights" style="width:100%" onContextMenu="return false;">
+  <div class="popz-container">
+  <h3><b>Coming soon..</b></h3>
+  <p>...........</p>
+  <p>...........</p>
+  <p>...........</p>
+  </div>
+  </div>
+</div>
+-->
+
+<!--
+<div class="popz-quarter">
+<div class="popz-card popz-white">
+  <img src="../home/images/popzimages-mountains.jpg" alt="Mountains" style="width:100%" onContextMenu="return false;">
+  <div class="popz-container">
+  <h3><b>Coming soon..</b></h3>
+  <p>1</p>
+  <p>2</p>
+  <p>3</p>
+  </div>
+  </div>
+</div>
+-->
+</div>
+
+
+<!-- Contact Container -->
+<div class="popz-container popz-padding-64 popz-theme-l5" id="contact">
+  <div class="popz-row">
+    <div class="popz-col m5">
+    <div class="popz-padding-16"><span class="popz-xlarge popz-border-teal popz-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+        <p><a href="https://www.google.com/maps/place/Kolkata,+West+Bengal/@22.5495379,88.3387697,11z/data=!4m15!1m8!3m7!1s0x39f882db4908f667:0x43e330e68f6c2cbc!2sKolkata,+West+Bengal!3b1!8m2!3d22.572646!4d88.363895!16zL20vMGN2dzk!3m5!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895!16zL20vMGN2dzk?entry=ttu" target="_blank" style="text-decoration: none" ><i class="fa fa-map-marker popz-text-teal popz-xlarge"></i>&nbsp;&nbsp;WB, IN</a></p>
+      <p><a href="mailto:project.1.0@outlook.com" style="text-decoration: none;"><i class="fa fa-envelope-o popz-text-teal popz-xlarge"></i>&nbsp;&nbsp;mail@project.1.0</a></p>
+    </div>
+      <div class="popz-col m7">
+      <form onsubmit="sendEmail(); reset(); return false" class="popz-container popz-card-4 popz-padding-16 popz-white">
+      <div class="popz-section" >
+        <input class="popz-input" type="text" placeholder="Your Name" id="inpt1" required/>
+      </div>
+      <div class="popz-section">
+        <input class="popz-input" type="text" placeholder="Email" id="inpt2" required>
+      </div>
+      <div class="popz-section">
+        <input class="popz-input" type="text" placeholder="Message" id="inpt3" required>
+      </div>
+      <input class="popz-check" type="checkbox" id="inpt4" checked>
+      <label>I Like it!</label> 
+      <button type="submit" class="popz-button popz-right popz-send">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<video  disablePictureInPicture autoplay muted loop  style="width:100%;" onContextMenu="return false;">
+  <source src="images/MyVideo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+<!-- Footer -->
+<footer class="popz-container popz-padding-20 popz-theme-d1 popz-center">
+  <h4>Follow Us</h4>
+  <a class="popz-button popz-large popz-teal" href="https://github.com/popzin" title="github" target=_"_blank"><i class="fa fa-github"></i></a>
+  
+  <a class="popz-button popz-large popz-teal popz-hide-small" href="https://www.linkedin.com/company/popzin/" title="Linkedin" target=_"_blank"><i class="fa fa-linkedin"></i></a>
+ 
+    <p style="margin-top: 80px">&copy; 2022 POPZ, All rights reserved. </p>
+  <div style="position:relative;bottom:100px;z-index:1;" class="popz-tooltip popz-right">
+    <a class="popz-button popz-theme-up" href="#"><span class="popz-ar">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+function openNav() {
+  var x = document.getElementById("navSmall");
+  if (x.className.indexOf("popz-show") == -1) {
+    x.className += " popz-show";
+  } else { 
+    x.className = x.className.replace(" popz-show", "");
+  }
+}
+</script>
+
+
+</body>
+</html>

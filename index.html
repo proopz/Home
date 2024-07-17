@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+  <title>Project 1.0</title>
+  <link rel="icon" href="./img/ticon.png" type="image/icon type">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    /* Style for the page loader */
+    #loader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loader-logo img {
+      width: 150px; /* Increased the size of the logo */
+      animation: blink-fade 2s infinite;
+    }
+
+    /* Animation for blinking and fading */
+    @keyframes blink-fade {
+      0% { opacity: 1; }
+      50% { opacity: 0.1; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Page Loader -->
+  <div id="loader">
+    <div class="loader-logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+  </div>
+
+  <section id="section07" class="click" style="display: none;">
+    <h1 style="font-size:3.5vw;">“Without data, you are just another person with an opinion.”</h1>
+    <h3 style="font-size:2vw;">W. Edwards Demings</h3>
+    <a href="home/index.html" onContextMenu="return false;"><span></span><span></span><span></span>Click</a>
+  </section>
+
+  <script>
+    // Ensure loader displays for at least 4 seconds
+    function minimumLoadTime() {
+      return new Promise(resolve => {
+        setTimeout(resolve, 4000);
+      });
+    }
+
+    // Wait for the window to load and minimum load time to complete
+    window.addEventListener('load', function() {
+      minimumLoadTime().then(() => {
+        // Hide the loader
+        document.getElementById('loader').style.display = 'none';
+        // Show the content
+        document.querySelector('section').style.display = 'block';
+      });
+    });
+  </script>
+</body>
+</html>

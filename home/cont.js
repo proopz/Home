@@ -1,7 +1,7 @@
 function sendEmail(){
           var checkedmsz = document.getElementById('inpt4').checked ? 'Yes' : 'No';
           Email.send({
-              SecureToken : "15c8eaa9-66d3-4241-a00d-897cdde21e82",
+              SecureToken : "bb142d07-ac48-4895-96d1-8254103c98ab",
               To : "project.1.0@outlook.com",
               From : "host.popz@proton.me",
               Subject : "New Contact Form from " +
